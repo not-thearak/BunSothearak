@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Smartphone, Globe, ArrowRight } from 'lucide-react';
-// Remove this line: import profileImage from "../assets/profile2.jpg";
 
 const Hero = () => {
   const roles = [
