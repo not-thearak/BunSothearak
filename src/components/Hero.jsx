@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Smartphone, Globe, ArrowRight } from 'lucide-react';
-import profileImage from '../assets/profile2.jpg'; // Adjust path as needed
+// Remove this line: import profileImage from "../assets/profile2.jpg";
 
 const Hero = () => {
   const roles = [
@@ -14,20 +14,19 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center pt-20">
       <div className="container mx-auto px-6 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left side - Text content (same as above) */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Hi, I'm{' '}
-              <span className="gradient-text">Thearak</span>
+              Hi, I'm <span className="gradient-text">Thearak</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              Building innovative solutions for web and mobile platforms with modern technologies.
+              Building innovative solutions for web and mobile platforms with
+              modern technologies.
             </p>
-            
+
             <div className="flex flex-wrap gap-4 mb-8">
               {roles.map((role, index) => (
                 <motion.div
@@ -64,7 +63,7 @@ const Hero = () => {
             </motion.div>
           </motion.div>
 
-          {/* Right side - Profile Image with local image */}
+          {/* Right side - Profile with online image */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -73,25 +72,25 @@ const Hero = () => {
           >
             <div className="relative z-10">
               <div className="absolute inset-0 gradient-bg rounded-full opacity-20 blur-3xl animate-pulse"></div>
-              
+
               <div className="relative bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-2 backdrop-blur-sm">
                 <div className="absolute -inset-4 gradient-bg rounded-full opacity-30 blur-xl"></div>
-                
+
                 <div className="relative rounded-xl overflow-hidden aspect-square">
                   <img
-                    src={profileImage}
-                    alt="Thearak - Profile"
-                    className="w-full h-full object-cover "
+                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    alt="Profile"
+                    className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-dark/50 via-transparent to-transparent"></div>
                 </div>
-                
+
                 <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 bg-dark/80 backdrop-blur-md px-4 py-2 rounded-full border border-gray-700">
-                  {/* <span className="text-xs text-primary">React</span>
-                  <span className="text-xs text-gray-400">•</span> */}
-                  <span className="text-xs text-primary">Applied</span>
+                  <span className="text-xs text-primary">React</span>
                   <span className="text-xs text-gray-400">•</span>
-                  <span className="text-xs text-primary">For Internship</span>
+                  <span className="text-xs text-primary">Node.js</span>
+                  <span className="text-xs text-gray-400">•</span>
+                  <span className="text-xs text-primary">React Native</span>
                 </div>
               </div>
             </div>
