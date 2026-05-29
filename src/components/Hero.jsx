@@ -84,11 +84,9 @@ const Hero = () => {
                 </div>
 
                 <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 bg-dark/80 backdrop-blur-md px-4 py-2 rounded-full border border-gray-700">
-                  <span className="text-xs text-primary">React</span>
+                  <span className="text-xs text-primary">Not</span>
                   <span className="text-xs text-gray-400">•</span>
-                  <span className="text-xs text-primary">Node.js</span>
-                  <span className="text-xs text-gray-400">•</span>
-                  <span className="text-xs text-primary">React Native</span>
+                  <span className="text-xs text-primary">Thearak</span>
                 </div>
               </div>
             </div>
