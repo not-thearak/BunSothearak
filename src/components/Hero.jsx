@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Smartphone, Globe, ArrowRight } from 'lucide-react';
-import myImage from '../assets/profile2.jpg';
+// import myImage from '../assets/profile2.jpg';
 
 const Hero = () => {
   const roles = [
@@ -77,7 +77,7 @@ const Hero = () => {
 
                 <div className="relative rounded-xl overflow-hidden aspect-square">
                   <img
-                    src={myImage}
+                    src="https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/627465091_2099235664184643_948556413980685940_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=iZjemU1ydD0Q7kNvwHSHEug&_nc_oc=Adq4P45bSlhSn9fkUZlKHyC9qD3OBFP3laLXPqPr5lbEGGDYj0_QcHdp1H40X_bB7QE&_nc_zt=23&_nc_ht=scontent.fpnh10-1.fna&_nc_gid=TNOehw3-BFGo5B06l6Qs9w&_nc_ss=7b2a8&oh=00_Af59YAwkD32t-zqvKXWbNMltDqgTax-rWRXRIB349pqi3w&oe=6A1F75C8"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
