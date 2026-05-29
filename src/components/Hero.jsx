@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Smartphone, Globe, ArrowRight } from 'lucide-react';
+import myImage from '../assets/profile2.jpg';
 
 const Hero = () => {
   const roles = [
@@ -76,7 +77,7 @@ const Hero = () => {
 
                 <div className="relative rounded-xl overflow-hidden aspect-square">
                   <img
-                    src="https://randomuser.me/api/portraits/men/32.jpg"
+                    src={myImage}
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
