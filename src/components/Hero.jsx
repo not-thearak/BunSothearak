@@ -22,8 +22,7 @@ const Hero = () => {
               Hi, I'm <span className="gradient-text">Thearak</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              Building innovative solutions for web and mobile platforms with
-              modern technologies.
+              I'm a passionate software developer specializing in building web and mobile applications. With a strong background in React, Node.js, and React Native, I create seamless user experiences that bring ideas to life.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-8">
